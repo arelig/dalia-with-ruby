@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :plants
   resources :friends
   root 'home#index'
 
